@@ -1,0 +1,276 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Seeeduino_XIAO:SeeeduinoXIAO U1
+U 1 1 6266D4D4
+P 5000 3450
+F 0 "U1" H 4975 2511 50  0000 C CNN
+F 1 "SeeeduinoXIAO" H 4975 2420 50  0000 C CNN
+F 2 "xiao:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM" H 4650 3650 50  0001 C CNN
+F 3 "" H 4650 3650 50  0001 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 62671493
+P 1700 4000
+F 0 "J1" V 1546 4148 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 1637 4148 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 4000 50  0001 C CNN
+F 3 "~" H 1700 4000 50  0001 C CNN
+	1    1700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch E1
+U 1 1 626732BC
+P 7300 1850
+F 0 "E1" V 7346 1620 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 7255 1620 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7150 2010 50  0001 C CNN
+F 3 "~" H 7300 2110 50  0001 C CNN
+	1    7300 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch E2
+U 1 1 6267AA7E
+P 7300 3650
+F 0 "E2" V 7346 3420 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 7255 3420 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7150 3810 50  0001 C CNN
+F 3 "~" H 7300 3910 50  0001 C CNN
+	1    7300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch E3
+U 1 1 6267CE94
+P 7300 5100
+F 0 "E3" V 7346 4870 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 7255 4870 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 7150 5260 50  0001 C CNN
+F 3 "~" H 7300 5360 50  0001 C CNN
+	1    7300 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 626815CC
+P 1500 3650
+F 0 "#PWR0101" H 1500 3400 50  0001 C CNN
+F 1 "GND" H 1505 3477 50  0000 C CNN
+F 2 "" H 1500 3650 50  0001 C CNN
+F 3 "" H 1500 3650 50  0001 C CNN
+	1    1500 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 62681C21
+P 1600 3300
+F 0 "#PWR0102" H 1600 3150 50  0001 C CNN
+F 1 "+3.3V" H 1615 3473 50  0000 C CNN
+F 2 "" H 1600 3300 50  0001 C CNN
+F 3 "" H 1600 3300 50  0001 C CNN
+	1    1600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3800 1500 3650
+Wire Wire Line
+	1600 3800 1600 3300
+Wire Wire Line
+	1800 3800 1800 3600
+Wire Wire Line
+	1800 3600 4150 3600
+Wire Wire Line
+	1700 3800 1700 3750
+Wire Wire Line
+	1700 3750 4150 3750
+NoConn ~ 5800 3000
+$Comp
+L power:GND #PWR0103
+U 1 1 62682D1F
+P 5800 3150
+F 0 "#PWR0103" H 5800 2900 50  0001 C CNN
+F 1 "GND" V 5805 3022 50  0000 R CNN
+F 2 "" H 5800 3150 50  0001 C CNN
+F 3 "" H 5800 3150 50  0001 C CNN
+	1    5800 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 62683387
+P 5800 3300
+F 0 "#PWR0104" H 5800 3150 50  0001 C CNN
+F 1 "+3.3V" V 5815 3428 50  0000 L CNN
+F 2 "" H 5800 3300 50  0001 C CNN
+F 3 "" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 62684187
+P 7400 1550
+F 0 "#PWR0105" H 7400 1300 50  0001 C CNN
+F 1 "GND" H 7405 1377 50  0000 C CNN
+F 2 "" H 7400 1550 50  0001 C CNN
+F 3 "" H 7400 1550 50  0001 C CNN
+	1    7400 1550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 62684677
+P 7400 3350
+F 0 "#PWR0106" H 7400 3100 50  0001 C CNN
+F 1 "GND" H 7405 3177 50  0000 C CNN
+F 2 "" H 7400 3350 50  0001 C CNN
+F 3 "" H 7400 3350 50  0001 C CNN
+	1    7400 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 62684C5D
+P 7400 4800
+F 0 "#PWR0107" H 7400 4550 50  0001 C CNN
+F 1 "GND" H 7405 4627 50  0000 C CNN
+F 2 "" H 7400 4800 50  0001 C CNN
+F 3 "" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 6268609E
+P 7300 3950
+F 0 "#PWR0109" H 7300 3700 50  0001 C CNN
+F 1 "GND" H 7305 3777 50  0000 C CNN
+F 2 "" H 7300 3950 50  0001 C CNN
+F 3 "" H 7300 3950 50  0001 C CNN
+	1    7300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6268B033
+P 7300 5400
+F 0 "#PWR0110" H 7300 5150 50  0001 C CNN
+F 1 "GND" H 7305 5227 50  0000 C CNN
+F 2 "" H 7300 5400 50  0001 C CNN
+F 3 "" H 7300 5400 50  0001 C CNN
+	1    7300 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1550 4000 1550
+Wire Wire Line
+	4000 1550 4000 3000
+Wire Wire Line
+	4000 3000 4150 3000
+Wire Wire Line
+	3900 2150 3900 3150
+Wire Wire Line
+	3900 3150 4150 3150
+Wire Wire Line
+	7400 2150 7400 2500
+Wire Wire Line
+	7400 2500 3750 2500
+Wire Wire Line
+	3750 2500 3750 3300
+Wire Wire Line
+	3750 3300 4150 3300
+NoConn ~ 4800 2550
+NoConn ~ 4950 2550
+NoConn ~ 5100 2550
+NoConn ~ 5250 2550
+Wire Wire Line
+	4150 3450 3400 3450
+Wire Wire Line
+	3400 3450 3400 1250
+Wire Wire Line
+	3400 1250 8400 1250
+Wire Wire Line
+	8400 1250 8400 2950
+Wire Wire Line
+	8400 2950 7200 2950
+Wire Wire Line
+	6800 3450 6800 4050
+Wire Wire Line
+	6800 4050 7200 4050
+Wire Wire Line
+	7200 4050 7200 3950
+Wire Wire Line
+	5800 3600 6700 3600
+Wire Wire Line
+	6700 3600 6700 4300
+Wire Wire Line
+	6700 4300 7400 4300
+Wire Wire Line
+	5800 3750 6600 3750
+Wire Wire Line
+	6600 3750 6600 5500
+Wire Wire Line
+	6600 5500 7200 5500
+Wire Wire Line
+	5800 3900 6500 3900
+Wire Wire Line
+	6500 3900 6500 5750
+Wire Wire Line
+	6500 5750 7400 5750
+Wire Wire Line
+	7400 5750 7400 5400
+Wire Wire Line
+	4150 3900 4150 6050
+Wire Wire Line
+	4150 6050 8550 6050
+Wire Wire Line
+	8550 6050 8550 4500
+Wire Wire Line
+	8550 4500 7200 4500
+Wire Wire Line
+	7200 4500 7200 4800
+Wire Wire Line
+	5800 3450 6800 3450
+Wire Wire Line
+	7400 3950 7400 4300
+$Comp
+L power:GND #PWR0108
+U 1 1 626B1B50
+P 7300 2250
+F 0 "#PWR0108" H 7300 2000 50  0001 C CNN
+F 1 "GND" H 7305 2077 50  0000 C CNN
+F 2 "" H 7300 2250 50  0001 C CNN
+F 3 "" H 7300 2250 50  0001 C CNN
+	1    7300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2150 7300 2250
+Wire Wire Line
+	7200 2150 3900 2150
+Wire Wire Line
+	7200 3350 7200 2950
+Wire Wire Line
+	7200 5400 7200 5500
+NoConn ~ 4900 4300
+NoConn ~ 5100 4300
+$EndSCHEMATC
