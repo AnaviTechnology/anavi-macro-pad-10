@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name xiao)(type KiCad)(uri ${KIPRJMOD}/components/xiao)(options "")(descr ""))
   (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/components/logo.pretty)(options "")(descr ""))
+  (lib (name led)(type KiCad)(uri ${KIPRJMOD}/components/led)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/components/keyswitches)(options "")(descr ""))
 )

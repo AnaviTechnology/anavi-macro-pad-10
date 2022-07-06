@@ -1,4 +1,4 @@
-update=21.05.2022 (сб)  0:22:28
+update=" 6.07.2022 (ср) 17:36:37"
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=anavi-knob-1.net
+LastNetListRead=anavi-macro-pad-10.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
