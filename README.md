@@ -2,9 +2,11 @@
 
 **Open source programmable keypad with 9 mechanical switches and a rotary encoder.**
 
+![ANAVI Macro Pad 10](https://github.com/AnaviTechnology/anavi-macro-pad-10/blob/main/anavi-macro-pad-10.jpg?raw=true)
+
 ANAVI Macro Pad 10 is an open source, custom-programmable, mini keyboard/keypad.
 
-ANAVI Macro Pad 10 has been designed with [the cross platform and open source electronics design automation suite KiCad](https://kicad-pcb.org/).
+ANAVI Macro Pad 10 has been designed with [the cross platform and open source electronics design automation suite KiCad](https://kicad-pcb.org/). Compatible with [KMK firmware](https://github.com/KMKfw/kmk_firmware/tree/master/boards/anavi/macro-pad-10) and [QMK firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/anavi). Available at [Crowd Supply](https://www.crowdsupply.com/anavi-technology/anavi-macro-pad-10).
 
 For more details please visit https://anavi.technology/
 
