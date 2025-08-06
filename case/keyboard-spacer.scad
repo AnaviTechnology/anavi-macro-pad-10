@@ -1,7 +1,7 @@
 // Settings
 
 // Height of the keyboard spacer
-height = 1.5;
+height = 1.7;
 // Outer diameter of the main cylinder
 outer_d = 8;
 // Diameter of the hole
