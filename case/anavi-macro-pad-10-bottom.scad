@@ -46,12 +46,12 @@ module case_top() {
 
             // Main hollow interior
             translate([wall_thickness, wall_thickness, wall_thickness])
-                linear_extrude(height = 18.5)
+                linear_extrude(height = case_height-3)
                     rounded_rect(case_width-2*wall_thickness, case_lenght-2*wall_thickness, corner_r);
             
             // Top hollow interior
-            translate([wall_thickness/2, wall_thickness/2, 18.5-3])
-                linear_extrude(height = 5)
+            translate([wall_thickness/2, wall_thickness/2, case_height-3])
+                linear_extrude(height = 3)
                     rounded_rect(case_width-wall_thickness, case_lenght-wall_thickness, corner_r);
 
             // Mounting hole 1 (top left)
